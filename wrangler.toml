@@ -1,0 +1,17 @@
+name = "supersociology-predict"
+compatibility_date = "2025-01-01"
+compatibility_flags = ["nodejs_compat"]
+
+[triggers]
+# PH: midnight Philippines time = UTC 16:00
+# US: midnight US Eastern time = UTC 05:00
+crons = ["0 16 * * *", "0 5 * * *"]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "supersociology"
+database_id = "your-d1-database-id-here"
+
+[vars]
+CRON_SECRET = "change-me-in-dashboard"
+NODE_ENV = "production"
