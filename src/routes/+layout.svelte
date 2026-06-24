@@ -39,10 +39,11 @@
 <div class="app-shell layout">
 	<nav class="sidebar">
 		<div class="brand">
-			<div class="brand-mark">S</div>
+			<img src="/icon.png" a="Icon" height="50px">
+			<!-- <div class="brand-mark">S</div> -->
 			<div class="brand-text">
-				<span class="brand-title">Super</span>
-				<span class="brand-sub">sociology</span>
+				<span class="brand-sub">Supersociology</span>
+				<span class="brand-title">Predict</span>
 			</div>
 		</div>
 
